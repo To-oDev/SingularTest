@@ -1,7 +1,7 @@
 import {render, screen, fireEvent, waitFor} from '@testing-library/react';
 import App from './App';
 
-test('procesamiento de 10 numeros naturales', async () => {
+test('procesamiento de 10 numeros naturales aleatorios', async () => {
     render(<App/>);
 
     const input = screen.getByRole('spinbutton');
@@ -11,7 +11,7 @@ test('procesamiento de 10 numeros naturales', async () => {
 
     for (let i = 1; i <= 10; i++) {
         // ingresar numero en input
-        const randomNum = Math.floor(Math.random() * 100000)
+        const randomNum = Math.floor(Math.random() * 1000)
         list[i-1] = randomNum
         fireEvent.change(input, {target: {value: randomNum}});
 
