@@ -5,7 +5,7 @@
  */
 import { useState } from "react";
 import './Form.css'
-import { BlockMath } from "react-katex";
+// import { BlockMath } from "react-katex";
 
 export default function Form ({onSubmit}) {
     const [input, setInput] = useState('');
@@ -29,9 +29,9 @@ export default function Form ({onSubmit}) {
                 
                 }/>
             <p>y obtén el valor de la posición correspondiente en la serie:</p>
-            <BlockMath>
+            {/* <BlockMath>
                 {'\\text{serie}(n) = \\frac{3 \\cdot \\text{primo}(n) \\cdot \\text{triangular}(n)}{\\text{fibonacci}(n - 2)}'}
-            </BlockMath>
+            </BlockMath> */}
             <button
                 type="submit"
                 onClick={handleSubmit}

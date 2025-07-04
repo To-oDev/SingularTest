@@ -1,5 +1,7 @@
-import {render, screen, fireEvent, waitFor} from '@testing-library/react';
+import { test, expect } from 'vitest'; // 👈 test y expect vienen de vitest
+import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
+
 
 test('procesamiento de 10 numeros naturales aleatorios', async () => {
     render(<App/>);
