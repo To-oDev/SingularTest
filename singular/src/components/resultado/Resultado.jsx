@@ -1,3 +1,8 @@
+/**
+ * 07.2025
+ * Resultado
+ * Caja visible para mostrar un valor.
+ */
 import './Resultado.css'
 
 export default function Resultado({resultado}) {
