@@ -1,3 +1,8 @@
+/**
+ * 07.2025
+ * Form component
+ * Formulario para recibir la posición del número deseado.
+ */
 import { useState } from "react";
 import './Form.css'
 import { BlockMath } from "react-katex";
