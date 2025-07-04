@@ -1,0 +1,30 @@
+#resultado {
+    width: 100%;
+    height: 35%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3rem;
+
+    background-color: #283b48;
+}
+
+.resultado {
+    height: 25%;
+    width: 100%;
+
+    max-width: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #222831;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 0;
+}

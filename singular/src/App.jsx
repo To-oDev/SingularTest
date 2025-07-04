@@ -18,9 +18,9 @@ function App() {
 
   return (
     <>
+      {res && <Resultado resultado={res} />}
       <Form onSubmit={handleSubmit}/>
       {num && <Serie valor={num} onCalculated={handleResult}/>}
-      {res && <Resultado resultado={res} />}
     </>
   )
 }
