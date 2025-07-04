@@ -1,5 +1,9 @@
-export default function Resultado({resultado, children}) {
+import './Resultado.css'
+
+export default function Resultado({resultado}) {
     return (
-        <div id="resultado" aria-label="resultado">{resultado}{children}</div>
+        <div id="resultado" aria-label="resultado">
+            <p className="resultado">{resultado}</p>
+        </div>
     )
 }
